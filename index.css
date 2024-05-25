@@ -6,52 +6,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+/* Estilos para el encabezado */
+.header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
-th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-th {
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-td {
-    font-size: 14px;
-    color: #555;
-}
-
-@media (max-width: 600px) {
-    table, th, td {
-        width: 100%;
-        display: block;
-    }
-    th, td {
-        text-align: right;
-    }
+.header nav {
+    margin-right: 20px;
 }

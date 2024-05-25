@@ -5,11 +5,15 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 
-
+h1 {
+    text-align: center;
+    color: #333;
+}
 
 table {
     width: 80%;
@@ -30,26 +34,3 @@ th {
     color: #333;
 }
 
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-td {
-    font-size: 14px;
-    color: #555;
-}
-
-@media (max-width: 600px) {
-    
-}
-    table, th, td {
-        width: 100%;
-        display: block;
-    }
-    th, td {
-        text-align: right;
-    }
