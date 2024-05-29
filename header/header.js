@@ -1,6 +1,8 @@
-let div_header = document.querySelector(".header");
+let header_DOM = document.querySelector(".header");
 
-div_header.innerHTML = `
-  <div class="header12">
-    <h1>Hola Mundo</h1>
-  </div>`;
+header_DOM.innerHTML =`
+
+  <h1 class="titulo" >comndos <span>GIT</span></h1>
+  <a href="https://github.com/Saajvatz/git_tiempo" class="btn-github">github</a>
+
+`;

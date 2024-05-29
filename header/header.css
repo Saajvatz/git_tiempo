@@ -1,4 +1,21 @@
-.header12{
-    align-items: center;
-    justify-content: center;
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.titulo{
+background-color: orangered;
+color: white;
+padding: 0.8rem 0.3rem;
+border-radius: 100%;
+}
+
+.btn-github span{
+    text-decoration: none;
+    background-color: rgb(7, 5, 31);
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    border-radius: 3px;
 }
